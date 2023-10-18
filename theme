@@ -702,11 +702,6 @@
     background:transparent!important
     }
     
-    .visualLoginForm {
-    overflow:hidden;
-    position:relative;
-    width:100%
-    }
     
     #divUsers {
     flex-flow:revert;
@@ -714,16 +709,7 @@
     overflow:scroll visible
     }
 
-    @media (orientation: landscape) {
-    .layout-mobile #loginPage .padded-left.padded-right.padded-bottom-page {
-    height:-webkit-fit-content!important;
-    height:-moz-fit-content!important;
-    height:fit-content!important;
-    max-width:90vh!important;
-    top:0;
-    transform:translateX(-50%);
-    width:90vh!important
-    }
+
     }
     
     div#videoOsdPage {
